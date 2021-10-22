@@ -1,0 +1,13 @@
+name: CEPython 
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.7
+  - jupyter
+  - matplotlib>=3.4
+  - numpy
+  - pip
+  - pip:
+          - PyDSTool
+
